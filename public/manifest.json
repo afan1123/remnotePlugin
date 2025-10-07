@@ -1,0 +1,20 @@
+{
+  "author": "afan1123",
+  "name": "listUnderline",
+  "description": "list all underline words",
+  "enableOnMobile": false,
+  "id": "afan1123-fu4sduh",
+  "manifestVersion": 1,
+  "version": {
+    "major": 0,
+    "minor": 0,
+    "patch": 1
+  },
+  "requestNative": false,
+  "requiredScopes": [
+    {
+      "type": "All",
+      "level": "Read"
+    }
+  ]
+}
