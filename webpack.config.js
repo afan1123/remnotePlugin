@@ -26,7 +26,11 @@ const config = {
       .replace(/\\/g, '/');
 
     obj[rel] = el;
+
     obj[`${rel}${SANDBOX_SUFFIX}`] = el;
+    console.log('?????????????');
+
+    console.log(obj, el);
     return obj;
   }, {}),
 
@@ -89,7 +93,8 @@ const config = {
     }),
     new BannerPlugin({
       banner: (file) => {
-        return !file.chunk.name.includes(SANDBOX_SUFFIX) ? 'const IMPORT_META=import.meta;' : '';
+        // return !file.chunk.name.includes(SANDBOX_SUFFIX) ? 'const IMPORT_META=import.meta;' : '';
+        return !file.chunk.name.includes(SANDBOX_SUFFIX) ? '' : '';
       },
       raw: true,
     }),

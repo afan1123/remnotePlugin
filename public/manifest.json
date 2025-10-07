@@ -4,6 +4,7 @@
   "description": "list all underline words",
   "enableOnMobile": false,
   "id": "afan1123-fu4sduh",
+  "repoUrl": "https://github.com/afan1123/remnotePlugin",
   "manifestVersion": 1,
   "version": {
     "major": 0,
